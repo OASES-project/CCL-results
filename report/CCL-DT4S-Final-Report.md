@@ -48,18 +48,17 @@ The full set of results is provided as a datapackage of which the structure is d
 
 The results of the household consumption impacts are provided for the average Swiss household as well as differentiated across the following demographic categories and combinations thereof. 
 
-<p align = "center">
 **Table 2: Demographic categories used for differentiation of the household consumption footprints**
 
 | Grossregion |	Einkommensklasse |	Haushaltstyp |
-|---|---|---|
-1.	Genferseeregion | 1. Fünftel (<4914) | 1. Einpersonenhaushalte unter 65 | 
-2.	Espace Mittelland |2. Fünftel (4914–7264) | 2. Einpersonenhaushalte ab 65 |
-3.	Nordwestschweiz | 3. Fünftel (7265–9990) | 3. Paarhaushalte (beide unter 65) ohne weitere Haushaltsmitglieder |
-4.	Zürich | 4. Fünftel (9991–13621) | 4. Paarhaushalte (mindestens eine Person ab 65) ohne weitere Haushaltsmitglieder | 
-5.	Ostschweiz | 5. Fünftel (≥13622)	 | 5. Einelternhaushalte mit Kindern (mindestens eines unter 25) ohne weitere Haushaltsmitglieder |
-6.	Zentralschweiz | | 6. Paarhaushalte mit Kindern (mindestens eines unter 25) ohne weitere Haushaltsmitglieder | 
-7.	Tessin	 | |
+| --- | --- | --- |
+| 1. Genferseeregion | 1. Fünftel (<4914) | 1. Einpersonenhaushalte unter 65 |
+| 2. Espace Mittelland | 2. Fünftel (4914–7264) | 2. Einpersonenhaushalte ab 65 |
+| 3. Nordwestschweiz | 3. Fünftel (7265–9990) | 3. Paarhaushalte (beide unter 65) ohne weitere Haushaltsmitglieder |
+| 4. Zürich | 4. Fünftel (9991–13621) | 4. Paarhaushalte (mindestens eine Person ab 65) ohne weitere Haushaltsmitglieder |
+| 5. Ostschweiz | 5. Fünftel (≥13622)  | 5. Einelternhaushalte mit Kindern (mindestens eines unter 25) ohne weitere Haushaltsmitglieder |
+| 6. Zentralschweiz | | 6. Paarhaushalte mit Kindern (mindestens eines unter 25) ohne weitere Haushaltsmitglieder |
+| 7. Tessin	 | |
 
 As to comply with the privacy rules of the Federal Statistics Office, the household clusters have a minimum size of 150 households. Combinations of the above demographic categories that had a sample size smaller than 150 households were aggregated, meaning that not all combinations are provided in the results datapackage.
 
@@ -69,26 +68,26 @@ As to comply with the privacy rules of the Federal Statistics Office, the househ
 
 Figure 1 shows the annual per person climate impact, as the global warming potential, of household consumption for the average Swiss household, as well as the 6 household types distinguished by the Federal Statistics Office (table 2), differentiated according to consumption category The narrow yellow bars provide the per person annual gross income for the household. The number in brackets at the end of each household type name gives the average number of people (including children) for each household. These results were calculated using deterministic approach, i.e., uncertainties were not considered here, neither the sampling variance of households, not the uncertainties in the background database.
 
-<p align = "center">
-![gwp_contributions](./figures/GWP100_byHousholdType_bySector_inclMeanIncomePP.pdf)
-<p align = "center">**Figure 1**
+<img src="figures/figure1.png">
+
+**Figure 1**
 
 Figure 2 shows the total environmental impact of household consumption as the ecological scarcity indicator, which includes various impacts such as global warming potential, land use, and ecotoxicity in a single score (ecopoints, or Umweltbelastungspunkte UBP). The breakdown of the total impact for the average household by impact compartment is presented in figure 3, which shows that land use and climate change dominate the environmental impacts of Swiss household consumption. 
 
-<p align = "center">
-![ubp_contributions](./figures/EnvironmentalImpact_byHousholdType_bySector_inclMeanIncomePP.pdf)
-<p align = "center">**Figure 2**
+<img src="figures/figure2.png">
 
-<p align = "center">
-![ubp_compartment_contributions](./figures/total_env_imp_by_compartment.pdf)
-<p align = "center">**Figure 3**
+**Figure 2**
+
+<img src="figures/figure3.png">
+
+**Figure 3**
 
 ## Uncertainty analysis of gwp100 household types
 
 The updates to the household consumption model by the CCL project also included the option to do a full stochastic analaysis, in other words to take the sampling variance of household consumption into account and provide impact distributions rather than static values. Figure 4 provides such distributions for the global warming potential impact of the 6 household categories as well as the average Swiss household. The yellow line and orange dashed line provide the mean and median of the distributions respectively. The histograms in figure 4 show the 1-99 percentile range of all samples.
 
-<p align = "center">
-![gwp_distributions](./figures/gwp100_distributions_householdtypes.pdf)
-<p align = "center">**Figure 4**
+<img src="figures/figure4.png">
+
+**Figure 4**
 
 Such an analysis shows that the variance between households is very high indeed. We note that these distributions also include the database uncertainty but that the variance of the distributions is dominated by the household sampling variance, i.e. the differences in consumption patterns between the households. 
