@@ -1,0 +1,19 @@
+{
+  "profile": "tabular-data-package",
+  "name": "nfp73-ccl-ecological-scarcity-2021-results",
+  "description": "Ecological Scarcity total 2021 results for NFP 73 CCL Data Transparency for Sustainbility project.             Ecological Scarcity impacts for all product categories from the household expenditure survey, followed by the monthly Ecological Scarcity             impact for the average household as well as various household clusters. Both impacts and gross income are monthly per household values.",
+  "id": "a8f35d57fe094465bee38bb4e3ff9011",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "resources": [
+    {
+      "path": "nfp73-ccl-preliminary-results-ecological-scarcity-2021-april-2023.csv"
+    }
+  ],
+  "created": "2023-04-10T16:18:23.928608Z"
+}

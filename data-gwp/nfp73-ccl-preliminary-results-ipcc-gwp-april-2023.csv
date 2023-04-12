@@ -1,0 +1,315 @@
+name,product_unit,houshold_size,gross_income,mean,median,std,method,unit
+Accommodation services,CHF,,,0.174,0.174,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+"Air travels, tickets",CHF,,,0.971,0.971,3.331e-16,GWP100 IPCC 2021,kg CO2-eq
+Alcoholic and non-alcoholic beer,litre,,,0.1026,0.1023,0.007802,GWP100 IPCC 2021,kg CO2-eq
+Alcoholic and non-alcoholic liqueurs and liqueur-based aperitifs,litre,,,0.4941,0.4989,1.11,GWP100 IPCC 2021,kg CO2-eq
+Apples,kilogram,,,0.3837,0.3793,0.3062,GWP100 IPCC 2021,kg CO2-eq
+Bakery products (sweet and salty),kilogram,,,1.682,1.664,0.2177,GWP100 IPCC 2021,kg CO2-eq
+Banana,kilogram,,,0.1152,0.1091,0.1408,GWP100 IPCC 2021,kg CO2-eq
+Beans and peas,kilogram,,,0.6514,0.6497,0.04895,GWP100 IPCC 2021,kg CO2-eq
+Beef,kilogram,,,25.81,25.73,1.43,GWP100 IPCC 2021,kg CO2-eq
+Beets and other root vegetables,kilogram,,,1.851,1.847,0.3013,GWP100 IPCC 2021,kg CO2-eq
+Berries,kilogram,,,0.7688,0.7716,0.5544,GWP100 IPCC 2021,kg CO2-eq
+Bicycles,person kilometer,,,0.01494,0.01327,0.007904,GWP100 IPCC 2021,kg CO2-eq
+Books and brochures,CHF,,,0.1507,0.1507,0,GWP100 IPCC 2021,kg CO2-eq
+Brassicas,kilogram,,,0.5107,0.5342,0.4719,GWP100 IPCC 2021,kg CO2-eq
+Bread,kilogram,,,0.5385,0.5364,0.03479,GWP100 IPCC 2021,kg CO2-eq
+"Bus, tickets and travelcards",person kilometer,,,0.06111,0.06016,0.009924,GWP100 IPCC 2021,kg CO2-eq
+Butter,kilogram,,,8.341,8.178,1.662,GWP100 IPCC 2021,kg CO2-eq
+Canteens,CHF,,,0.174,0.174,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Central heating or district heating of principal residence,megajoule,,,0.08321,0.08254,0.008615,GWP100 IPCC 2021,kg CO2-eq
+Chocolate,kilogram,,,12.92,12.86,1.052,GWP100 IPCC 2021,kg CO2-eq
+Cinema,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Cleaning articles,CHF,,,0.4556,0.4556,0,GWP100 IPCC 2021,kg CO2-eq
+"Cleaning, repair and hire of clothing",CHF,,,0.1127,0.1127,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Clothing accessories,CHF,,,0.7255,0.7255,0,GWP100 IPCC 2021,kg CO2-eq
+Clothing materials,CHF,,,0.7255,0.7255,0,GWP100 IPCC 2021,kg CO2-eq
+Cocoa-based beverages,kilogram,,,14.17,14.11,1.058,GWP100 IPCC 2021,kg CO2-eq
+"Cookers, barbecue, space heaters and room care appliances",CHF,,,0.1905,0.1905,0,GWP100 IPCC 2021,kg CO2-eq
+Cream,litre,,,2.937,2.899,0.4673,GWP100 IPCC 2021,kg CO2-eq
+Culinary herbs,kilogram,,,0.4153,0.4082,0.402,GWP100 IPCC 2021,kg CO2-eq
+Curd,kilogram,,,14.67,14.26,3.241,GWP100 IPCC 2021,kg CO2-eq
+Cutlery,CHF,,,0.2116,0.2116,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Dental care products,CHF,,,0.0009313,0.0009313,4.337e-19,GWP100 IPCC 2021,kg CO2-eq
+Desktop computers,unit,,,158.3,155.7,57.27,GWP100 IPCC 2021,kg CO2-eq
+Detergents and cleaning products,CHF,,,0.0009313,0.0009313,4.337e-19,GWP100 IPCC 2021,kg CO2-eq
+Diesel,litre,,,5.409,5.352,0.5982,GWP100 IPCC 2021,kg CO2-eq
+Domestic services and household services,CHF,,,0.2018,0.2018,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Dues for recreational associations,CHF,,,0.3182,0.3182,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Dues for sports clubs and associations,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Dues to cultural associations,CHF,,,0.3182,0.3182,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Dues to organisations and associations,CHF,,,0.3182,0.3182,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Durable goods for recreation and sports,CHF,,,0.419,0.419,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Education services,CHF,,,0.1788,0.1788,0,GWP100 IPCC 2021,kg CO2-eq
+"Egg, national average, at farm gate",kilogram,,,1.915,1.884,0.3284,GWP100 IPCC 2021,kg CO2-eq
+Electrical appliances for personal care,CHF,,,0.1905,0.1905,0,GWP100 IPCC 2021,kg CO2-eq
+Electricity of principal residence,kilowatt hour,,,0.04662,0.04634,0.003933,GWP100 IPCC 2021,kg CO2-eq
+Entries in sports facilities,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Equipment for sports and camping,CHF,,,0.4556,0.4556,0,GWP100 IPCC 2021,kg CO2-eq
+"Equipment for the reception, recording and reproduction of sound and pictures",CHF,,,0.4755,0.4755,1.11e-16,GWP100 IPCC 2021,kg CO2-eq
+Fees,CHF,,,0.1181,0.1181,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Fees for radio and TV reception,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Financial services,CHF,,,0.04312,0.04312,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Fish,kilogram,,,0,0,0,GWP100 IPCC 2021,kg CO2-eq
+Fixed line,CHF,,,0.09453,0.09453,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Footwear for children and babies,CHF,,,0.6865,0.6865,0,GWP100 IPCC 2021,kg CO2-eq
+Footwear for men,CHF,,,0.6865,0.6865,0,GWP100 IPCC 2021,kg CO2-eq
+Footwear for women,CHF,,,0.6865,0.6865,0,GWP100 IPCC 2021,kg CO2-eq
+Fresh eggs,kilogram,,,0,0,0,GWP100 IPCC 2021,kg CO2-eq
+"Fresh, soft and melted cheese",kilogram,,,14.67,14.26,3.241,GWP100 IPCC 2021,kg CO2-eq
+Fruit juices,litre,,,0.2804,0.2648,0.7144,GWP100 IPCC 2021,kg CO2-eq
+"Furniture and furnishings, carpets and other floor coverings incl. repairs",CHF,,,0.4556,0.4556,0,GWP100 IPCC 2021,kg CO2-eq
+"Games, toys and hobbies",CHF,,,0.4556,0.4556,0,GWP100 IPCC 2021,kg CO2-eq
+Garlic,kilogram,,,-0.253,-0.1459,9.586,GWP100 IPCC 2021,kg CO2-eq
+Garments for children (between 0 and 13 years),CHF,,,0.5422,0.5422,0,GWP100 IPCC 2021,kg CO2-eq
+Garments for men,CHF,,,0.5422,0.5422,0,GWP100 IPCC 2021,kg CO2-eq
+Garments for women,CHF,,,0.5422,0.5422,0,GWP100 IPCC 2021,kg CO2-eq
+Gasoline,litre,,,4.863,4.802,0.6461,GWP100 IPCC 2021,kg CO2-eq
+Glasses and contact lenses,CHF,,,0.2038,0.2038,8.327e-17,GWP100 IPCC 2021,kg CO2-eq
+"Glassware, tableware",CHF,,,0.6321,0.6321,0,GWP100 IPCC 2021,kg CO2-eq
+Grapes,kilogram,,,0.3455,0.3489,0.776,GWP100 IPCC 2021,kg CO2-eq
+Green salads and other leafy vegetables,kilogram,,,3.046,3.048,0.6922,GWP100 IPCC 2021,kg CO2-eq
+Hair care products,CHF,,,0.0009313,0.0009313,4.337e-19,GWP100 IPCC 2021,kg CO2-eq
+"Ham, bacon and other cured or smoked pork",kilogram,,,12.44,12.31,1.175,GWP100 IPCC 2021,kg CO2-eq
+Hard and semi-hard cheese,kilogram,,,14.67,14.26,3.241,GWP100 IPCC 2021,kg CO2-eq
+"Hare, game and rabbit meat",kilogram,,,25.81,25.73,1.43,GWP100 IPCC 2021,kg CO2-eq
+Honey,kilogram,,,0.2668,0.2636,0.03817,GWP100 IPCC 2021,kg CO2-eq
+Horse meat,kilogram,,,25.81,25.73,1.43,GWP100 IPCC 2021,kg CO2-eq
+Household textiles,CHF,,,0.7255,0.7255,0,GWP100 IPCC 2021,kg CO2-eq
+Ice cream,kilogram,,,1.174,1.167,0.1349,GWP100 IPCC 2021,kg CO2-eq
+Instant coffee and coffee surrogates,kilogram,,,11.08,10.93,1.29,GWP100 IPCC 2021,kg CO2-eq
+"Jams, marmalades, compotes",kilogram,,,0.2668,0.2636,0.03817,GWP100 IPCC 2021,kg CO2-eq
+"Jewellery, clocks and watches",CHF,,,0.4434,0.4434,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Kitchen utensils,CHF,,,0.2116,0.2116,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+"Large trout, 2-4kg, conventional, at farm gate",kilogram,,,1.642,1.623,0.3122,GWP100 IPCC 2021,kg CO2-eq
+Lemons,kilogram,,,0.1658,0.1636,0.2305,GWP100 IPCC 2021,kg CO2-eq
+"Luggage, leather and baby goods",CHF,,,0.6865,0.6865,0,GWP100 IPCC 2021,kg CO2-eq
+Machines with engines for house and garden,CHF,,,0.1905,0.1905,0,GWP100 IPCC 2021,kg CO2-eq
+Maintenance and repair of the dwelling,CHF,,,0.2209,0.2209,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Margarine,kilogram,,,0.8472,0.8402,0.08614,GWP100 IPCC 2021,kg CO2-eq
+"Medical products, therapeutic devices and products",CHF,,,0.2038,0.2038,8.327e-17,GWP100 IPCC 2021,kg CO2-eq
+Medical services and hospital services,CHF,,,0.1439,0.1439,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Medicines,CHF,,,0.0009313,0.0009313,4.337e-19,GWP100 IPCC 2021,kg CO2-eq
+Melons and watermelons,kilogram,,,0.2931,0.3055,0.8038,GWP100 IPCC 2021,kg CO2-eq
+Milk-based beverages and other similar milk-based products,litre,,,0.5337,0.5313,0.05998,GWP100 IPCC 2021,kg CO2-eq
+Mineral water,litre,,,0.0006014,0.0005966,4.623e-05,GWP100 IPCC 2021,kg CO2-eq
+Miscellaneous printed matter,CHF,,,0.1507,0.1507,0,GWP100 IPCC 2021,kg CO2-eq
+Mobile telephony,CHF,,,0.09453,0.09453,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+"Museums, exhibitions, libraries, zoological gardens",CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+"Mushrooms and vegetables, dried",kilogram,,,0.5956,0.5938,0.06847,GWP100 IPCC 2021,kg CO2-eq
+Music and dance classes,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Natural gas and other fuels of principal residence,megajoule,,,0.08321,0.08254,0.008615,GWP100 IPCC 2021,kg CO2-eq
+Newspapers and periodicals,kilogram,,,0.04476,0.04406,0.005541,GWP100 IPCC 2021,kg CO2-eq
+Non-alcoholic soft drinks,litre,,,0.667,0.659,0.09542,GWP100 IPCC 2021,kg CO2-eq
+Non-durable products of cotton and paper for personal care,CHF,,,0.2492,0.2492,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Non-electrical appliances for personal care,CHF,,,0.2116,0.2116,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+"Nuts, other edible nuts and seeds oleaginous fruits",kilogram,,,2.025,2.018,0.3511,GWP100 IPCC 2021,kg CO2-eq
+Olive oil,litre,,,1.41,1.419,0.6047,GWP100 IPCC 2021,kg CO2-eq
+Onions,kilogram,,,-0.253,-0.1459,9.586,GWP100 IPCC 2021,kg CO2-eq
+Oranges and other citrus fruits,kilogram,,,0.2519,0.2397,0.3819,GWP100 IPCC 2021,kg CO2-eq
+"Other boiled, dried, cured or smoked meat",kilogram,,,25.84,25.81,1.274,GWP100 IPCC 2021,kg CO2-eq
+Other cereal products,kilogram,,,1.152,1.16,0.2666,GWP100 IPCC 2021,kg CO2-eq
+"Other eatable meat products incl. offal, fresh and frozen",kilogram,,,12.51,12.47,0.6911,GWP100 IPCC 2021,kg CO2-eq
+"Other flours and meals, starches, semolina, flakes and grains",kilogram,,,0.5603,0.5593,0.09074,GWP100 IPCC 2021,kg CO2-eq
+Other fried fruits,kilogram,,,1.542,1.524,1.216,GWP100 IPCC 2021,kg CO2-eq
+Other fruiting vegetables,kilogram,,,2.158,2.156,0.4989,GWP100 IPCC 2021,kg CO2-eq
+Other household utensils,CHF,,,0.2116,0.2116,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Other insurance premiums,CHF,,,0.05309,0.05309,0,GWP100 IPCC 2021,kg CO2-eq
+Other leisure-time courses,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Other non-durable household articles,CHF,,,0.1127,0.1127,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Other personal effects,CHF,,,0.4556,0.4556,0,GWP100 IPCC 2021,kg CO2-eq
+Other products for personal care,CHF,,,0.0009313,0.0009313,4.337e-19,GWP100 IPCC 2021,kg CO2-eq
+Other purchased transport services,CHF,,,0.1737,0.1737,0,GWP100 IPCC 2021,kg CO2-eq
+Other services and losses relating to renting,CHF,,,0.08012,0.08012,0,GWP100 IPCC 2021,kg CO2-eq
+Other services in entertainment and culture,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Other sugary or cocoa-based foods,kilogram,,,5.191,5.167,0.3511,GWP100 IPCC 2021,kg CO2-eq
+Other tropical fruits,kilogram,,,0.3912,0.3923,0.5956,GWP100 IPCC 2021,kg CO2-eq
+Other vegetable fats,kilogram,,,0.8472,0.8402,0.08614,GWP100 IPCC 2021,kg CO2-eq
+Other vegetable oils and edible animal fats,litre,,,5.995,5.829,1.265,GWP100 IPCC 2021,kg CO2-eq
+Package holidays,CHF,,,0.2774,0.2774,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Passenger transport by sea and inland waterway,CHF,,,1.723,1.723,4.441e-16,GWP100 IPCC 2021,kg CO2-eq
+Pasta products,kilogram,,,0.482,0.4797,0.035,GWP100 IPCC 2021,kg CO2-eq
+Pears and quinces,kilogram,,,0.5888,0.5899,0.198,GWP100 IPCC 2021,kg CO2-eq
+Pets and related products,CHF,,,0.3594,0.3594,0,GWP100 IPCC 2021,kg CO2-eq
+Photographic and cinematographic equipment and optical instruments,CHF,,,0.2038,0.2038,8.327e-17,GWP100 IPCC 2021,kg CO2-eq
+Plants and other non-durable goods for gardening,CHF,,,0.4968,0.4968,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Plastic or paper refuse bags without fees,CHF,,,0.2739,0.2739,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+"Pork, fresh or frozen",kilogram,,,13.11,12.98,1.238,GWP100 IPCC 2021,kg CO2-eq
+Portable computers,unit,,,55.74,54.12,19.47,GWP100 IPCC 2021,kg CO2-eq
+Postal services,CHF,,,0.09453,0.09453,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Potatoes,kilogram,,,0.1123,0.1116,0.009167,GWP100 IPCC 2021,kg CO2-eq
+Potatoes-based products and other tuber vegetables,kilogram,,,1.204,1.184,0.1858,GWP100 IPCC 2021,kg CO2-eq
+"Poultry, fresh or frozen",kilogram,,,3.229,3.18,0.528,GWP100 IPCC 2021,kg CO2-eq
+"Poultry, grilled or smoked",kilogram,,,2.954,2.916,0.3993,GWP100 IPCC 2021,kg CO2-eq
+Premiums for life insurance,CHF,,,0.05309,0.05309,0,GWP100 IPCC 2021,kg CO2-eq
+Preserved fruits,kilogram,,,0.5897,0.5796,0.3368,GWP100 IPCC 2021,kg CO2-eq
+Printers (incl. multifunctional printers),unit,,,18.06,17.98,1.477,GWP100 IPCC 2021,kg CO2-eq
+Processed eggs,kilogram,,,0,0,0,GWP100 IPCC 2021,kg CO2-eq
+Purchases and rent of telephones and telefax machines,CHF,,,0.4755,0.4755,1.11e-16,GWP100 IPCC 2021,kg CO2-eq
+Pure and ground coffee,kilogram,,,11.08,10.93,1.29,GWP100 IPCC 2021,kg CO2-eq
+Ready-made foods,kilogram,,,6.615,6.542,0.6133,GWP100 IPCC 2021,kg CO2-eq
+"Refrigerators, dishwashers, washing machines and dryers",CHF,,,0.1905,0.1905,0,GWP100 IPCC 2021,kg CO2-eq
+Refuse collection costs at principal residence,number of waste bags,,,2.461,2.432,0.4693,GWP100 IPCC 2021,kg CO2-eq
+Regular maintenance costs of principal residence,CHF,,,0.2018,0.2018,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Rent for equipment and DVDs and CDs,CHF,,,0.1127,0.1127,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Rent of sports and recreational goods,CHF,,,0.1127,0.1127,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Repair and hire of footwear,CHF,,,0.1127,0.1127,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Repair of household appliances,CHF,,,0.1127,0.1127,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+"Restaurants, cafés and bars",CHF,,,0.174,0.174,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Rice,kilogram,,,2.686,2.658,0.3739,GWP100 IPCC 2021,kg CO2-eq
+Sandwich,kilogram,,,4.669,4.544,0.9734,GWP100 IPCC 2021,kg CO2-eq
+"Sauces, seasonings and condiments",kilogram,,,2.472,2.467,0.4603,GWP100 IPCC 2021,kg CO2-eq
+"Sausages, cold meat and pies",kilogram,,,11.84,11.72,1.115,GWP100 IPCC 2021,kg CO2-eq
+"Sea bass or sea bream, 200-500g, conventional, in cage, at farm gate",kilogram,,,4.905,4.826,0.6645,GWP100 IPCC 2021,kg CO2-eq
+Self-service restaurants and take-aways,CHF,,,0.174,0.174,5.551e-17,GWP100 IPCC 2021,kg CO2-eq
+Services of hairdressers and beauty salons,CHF,,,0.08012,0.08012,0,GWP100 IPCC 2021,kg CO2-eq
+Services of internet providers,CHF,,,0.09453,0.09453,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+"Services of sports and recreational facilities, without ski lifts",CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Sewing and knitting products,CHF,,,0.1905,0.1905,0,GWP100 IPCC 2021,kg CO2-eq
+Sheep and Goat meat,kilogram,,,11.38,11.22,1.368,GWP100 IPCC 2021,kg CO2-eq
+Skimmed and low-fat milk,litre,,,1.232,1.198,0.2802,GWP100 IPCC 2021,kg CO2-eq
+Small electric household appliances,CHF,,,0.1905,0.1905,0,GWP100 IPCC 2021,kg CO2-eq
+"Small trout, 250-350g, conventional, at farm gate",kilogram,,,0.7912,0.7821,0.1504,GWP100 IPCC 2021,kg CO2-eq
+Soaps and foam baths,kilogram,,,1.02,0.98,0.3447,GWP100 IPCC 2021,kg CO2-eq
+Social protection services,CHF,,,0.1439,0.1439,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+"Sound carriers, data carriers, videotapes and films",CHF,,,0.1507,0.1507,0,GWP100 IPCC 2021,kg CO2-eq
+Soups and bouillons,kilogram,,,1.448,1.445,0.1879,GWP100 IPCC 2021,kg CO2-eq
+Spirits,litre,,,0.7527,0.7499,0.05723,GWP100 IPCC 2021,kg CO2-eq
+Sports and crafting classes,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Stakes,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Stem vegetables,kilogram,,,0.336,0.419,3.216,GWP100 IPCC 2021,kg CO2-eq
+Stone fruit,kilogram,,,0.3001,0.3031,0.1199,GWP100 IPCC 2021,kg CO2-eq
+Subscriptions to cable television,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Subscriptions to private television,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+Sugar,kilogram,,,0.05795,0.05711,0.007947,GWP100 IPCC 2021,kg CO2-eq
+Sweets and chewing gum,kilogram,,,0.6677,0.6597,0.09542,GWP100 IPCC 2021,kg CO2-eq
+Syrups,litre,,,4.662,4.607,0.667,GWP100 IPCC 2021,kg CO2-eq
+Taxi,CHF,,,0.1737,0.1737,0,GWP100 IPCC 2021,kg CO2-eq
+"Tea, herbal tea and surrogates",kilogram,,,3.443,3.425,0.5929,GWP100 IPCC 2021,kg CO2-eq
+Theatre and concerts,CHF,,,0.1075,0.1075,1.388e-17,GWP100 IPCC 2021,kg CO2-eq
+"Tickets and season tickets for cable cars, including ski lifts",CHF,,,0.1737,0.1737,0,GWP100 IPCC 2021,kg CO2-eq
+Tinned meat and other meat-based preparations,kilogram,,,25.81,25.73,1.43,GWP100 IPCC 2021,kg CO2-eq
+Tinned or processed vegetables and mushrooms,kilogram,,,2.329,2.345,0.454,GWP100 IPCC 2021,kg CO2-eq
+Tobacco,CHF,,,0.2237,0.2237,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Tomatoes,kilogram,,,0.4797,0.4757,0.3218,GWP100 IPCC 2021,kg CO2-eq
+Tools and equipment without engines for house and garden,CHF,,,0.2116,0.2116,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+"Train, tickets and travelcards",person kilometer,,,0.008829,0.008673,0.002142,GWP100 IPCC 2021,kg CO2-eq
+"Tram, tickets and travelcards",person kilometer,,,0.06231,0.06187,0.008723,GWP100 IPCC 2021,kg CO2-eq
+Veal,kilogram,,,25.81,25.73,1.43,GWP100 IPCC 2021,kg CO2-eq
+Vegetable juices,litre,,,0.5999,0.5948,0.4022,GWP100 IPCC 2021,kg CO2-eq
+Vegetarian soy products,kilogram,,,1.312,1.306,0.1103,GWP100 IPCC 2021,kg CO2-eq
+Veterinary and other services for pets,CHF,,,0.1439,0.1439,2.776e-17,GWP100 IPCC 2021,kg CO2-eq
+Wastewater collection fees of principal residence,cubic meter,,,0.1928,0.1867,0.0345,GWP100 IPCC 2021,kg CO2-eq
+Water supply fees of principal residence,cubic meter,,,0.09058,0.08967,0.00955,GWP100 IPCC 2021,kg CO2-eq
+Wheat flour,kilogram,,,0.5355,0.5329,0.03889,GWP100 IPCC 2021,kg CO2-eq
+Whole milk,litre,,,1.868,1.863,0.2357,GWP100 IPCC 2021,kg CO2-eq
+Wine,litre,,,0.4941,0.4989,1.11,GWP100 IPCC 2021,kg CO2-eq
+Writing and drawing materials,CHF,,,0.4556,0.4556,0,GWP100 IPCC 2021,kg CO2-eq
+Yoghurt,kilogram,,,2.168,2.148,0.3076,GWP100 IPCC 2021,kg CO2-eq
+ch hh average,,2.24,9938.0,1923,1792,589,GWP100 IPCC 2021,kg CO2-eq
+household cluster 1,,1.3815153143471253,3445.7627257443332,1142,1071,307.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster 2,,1.767476450173525,6126.032578671344,1495,1399,413.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster 3,,2.2853670393777348,8561.600619938796,1863,1744,560.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster 4,,2.727672035139092,11639.350226933284,2193,2070,577.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster 5,,2.973461321287408,17559.975808472052,2670,2555,624.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster 6,,3.115,38040.343263775,3415,3264,849.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster A,,2.300251256281407,10558.37274868448,1913,1803,500.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster A1,,1.3398058252427185,3410.0777399485155,1107,1042,283.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster A2,,1.7542662116040955,6144.009579684301,1467,1372,384.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster A3,,2.2056962025316458,8557.53603574019,1805,1714,442.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster A4,,2.8488745980707395,11593.741746335048,2100,2014,460.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster A5,,3.1707988980716255,21061.117126749312,2789,2658,655.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster Aa,,1.0,6953.167191949199,1260,1179,357.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ab,,1.0,5227.947598252331,1074,1027,225,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ac,,2.0,12689.686591219319,1969,1889,482.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ad,,2.0,8850.967002173544,1847,1759,471.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster Af,,3.903755868544601,14767.446908936643,2660,2543,613.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster B,,2.2418452935694315,9326.648475328317,1844,1719,599.8,GWP100 IPCC 2021,kg CO2-eq
+household cluster B1,,1.4195979899497488,3505.498178508206,1111,1039,303.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster B2,,1.6835164835164835,6097.036036026813,1418,1349,349.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster B3,,2.358490566037736,8548.269980418658,1834,1680,661.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster B4,,2.775377969762419,11677.417093378835,2209,2115,529.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster B5,,3.0311614730878187,18021.18714368838,2651,2535,617.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ba,,1.0,6595.769988993452,1291,1140,623.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster Bb,,1.0,4469.856387193869,999.2,948.3,232.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster Bc,,2.0,12096.539535615664,2071,1987,462.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster Bd,,2.0,7564.616703145055,1778,1707,414.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster Bf,,3.926126126126126,12617.685702146942,2437,2324,569,GWP100 IPCC 2021,kg CO2-eq
+household cluster C,,2.1309627059843885,10237.210840458269,1862,1771,461.8,GWP100 IPCC 2021,kg CO2-eq
+household cluster C1,,1.3664921465968587,3477.435296017714,1063,1010,259.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster C2,,1.6244725738396624,6131.931682800421,1329,1276,298.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster C3,,1.9956709956709957,8600.780280819481,1799,1703,445.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster C4,,2.597609561752988,11591.579566051794,2080,1980,492.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster C5,,2.8724279835390947,19711.026472168727,2761,2626,704.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ca,,1.0,7277.185179249147,1306,1217,375.3,GWP100 IPCC 2021,kg CO2-eq
+household cluster Cc,,2.0,13115.474302688117,2124,2021,507.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster Cd,,2.0,8641.074130966039,1796,1733,388,GWP100 IPCC 2021,kg CO2-eq
+household cluster Cf,,3.880952380952381,14633.302856627777,2596,2475,642.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster D,,2.156897572528123,11005.051495815293,1858,1779,479.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster D1,,1.2777777777777777,3363.41467167353,1091,1027,260.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster D2,,1.6930379746835442,6117.318713368987,1385,1313,339.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster D3,,2.0,8514.743672879698,1629,1566,363.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster D4,,2.5454545454545454,11662.850070053444,1998,1920,475.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster D5,,2.808411214953271,20475.23079034112,2511,2435,527.3,GWP100 IPCC 2021,kg CO2-eq
+household cluster Da,,1.0,7611.536117572766,1323,1235,376.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster Db,,1.0,5261.080365032772,1102,1047,261.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster Dc,,2.0,14668.42091176862,2069,1960,503.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster Dd,,2.0,9218.24972544879,1794,1742,380.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster Df,,3.7951807228915664,14785.901705628434,2395,2299,520.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster E,,2.281076801266825,9536.705301779408,1947,1825,516.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster E1,,1.4115226337448559,3411.6650700139644,1134,1085,259.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster E2,,1.8531746031746033,6143.345100277381,1516,1447,381.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster E3,,2.458181818181818,8590.600516662182,1891,1819,450.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster E4,,2.7137546468401488,11587.541887706318,2217,2119,515,GWP100 IPCC 2021,kg CO2-eq
+household cluster E5,,2.96875,18697.487986558037,2840,2745,624.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ea,,1.0,6379.548068900805,1291,1198,383.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ec,,2.0,12059.838290568267,2143,2048,532.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ed,,2.0,7997.384211854974,1815,1724,445.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ef,,3.866279069767442,12509.090365155524,2511,2425,558.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster F,,2.332686711930165,10292.56795985998,1944,1854,490.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster F1,,1.3225806451612903,3575.216625648602,1170,1113,286.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster F2,,1.75,6211.985088691666,1558,1500,358.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster F3,,2.5833333333333335,8693.43321229706,1828,1755,404.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster F4,,2.7222222222222223,11712.409527566204,2081,2001,456.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster F5,,3.1085972850678734,19801.183180493215,2740,2632,592.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster Fa,,1.0,6895.372913751264,1315,1243,341.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster Fc,,2.0,13178.859481545,2181,2057,542,GWP100 IPCC 2021,kg CO2-eq
+household cluster Fd,,2.0,7572.3096104211545,1751,1681,404,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ff,,3.8664495114006514,13571.030695053096,2429,2342,514.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster G,,2.2719703977798336,8385.15223066235,1802,1718,488.8,GWP100 IPCC 2021,kg CO2-eq
+household cluster G1,,1.4893617021276595,3396.6900451585107,1124,1067,287.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster G2,,2.080769230769231,6077.511778188846,1529,1457,377.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster G3,,2.4776785714285716,8468.683629241965,1901,1802,500.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster G4,,2.977272727272727,11628.980371511365,2177,2081,524.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster Ga,,1.0,6155.996830226,1274,1188,387,GWP100 IPCC 2021,kg CO2-eq
+household cluster Gc,,2.0,10167.092541282458,2044,1967,482.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster Gd,,2.0,7042.599187297661,1750,1669,394.3,GWP100 IPCC 2021,kg CO2-eq
+household cluster Gf,,3.7607973421926912,11260.805230843755,2225,2130,544.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster Gro_Ein_rest,,2.9928057553956835,18580.174301769785,2678,2624,574.6,GWP100 IPCC 2021,kg CO2-eq
+household cluster Gro_Hau_rest,,2.1404893449092346,7929.913073943179,1598,1503,428.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster Hau_Ein_rest,,2.431980906921241,11003.886974211251,1920,1795,536.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster a,,1.0,6885.896880683625,1306,1217,433.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster a1,,1.0,3326.2530925594074,1022,961.6,300.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster a2,,1.0,6111.259063606821,1258,1194,333.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster a3,,1.0,8408.451300857294,1464,1329,504.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster a4,,1.0,11490.388343383824,1601,1503,431.8,GWP100 IPCC 2021,kg CO2-eq
+household cluster b,,1.0,4739.27891775395,1073,1011,261.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster b1,,1.0,3265.6663342762645,939,898.3,208,GWP100 IPCC 2021,kg CO2-eq
+household cluster b2,,1.0,5846.837739887398,1186,1139,234.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster c,,2.0,12704.516959991446,2144,2023,537.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster c2,,2.0,6254.243038694652,1662,1591,373.8,GWP100 IPCC 2021,kg CO2-eq
+household cluster c3,,2.0,8706.444116756666,1872,1759,485.9,GWP100 IPCC 2021,kg CO2-eq
+household cluster c4,,2.0,11718.383682110352,2089,1978,506.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster c5,,2.0,19370.098448245666,2492,2376,618.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster d,,2.0,8152.322628641215,1825,1733,441.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster d1,,2.0,4011.5966759971343,1402,1353,309.2,GWP100 IPCC 2021,kg CO2-eq
+household cluster d2,,2.0,6126.670324633134,1678,1604,389.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster d3,,2.0,8441.413148125424,1862,1770,420.5,GWP100 IPCC 2021,kg CO2-eq
+household cluster d4,,2.0,11399.6283731933,2054,1987,454.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster e,,2.6013513513513513,7874.58643264928,1721,1624,456.7,GWP100 IPCC 2021,kg CO2-eq
+household cluster f,,3.8630769230769233,13452.471291955128,2504,2380,649.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster f2,,3.7819905213270144,6380.4568533431275,1737,1664,400.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster f3,,3.830570902394107,8688.641724251565,2072,1986,474.1,GWP100 IPCC 2021,kg CO2-eq
+household cluster f4,,3.8581818181818184,11698.914336062424,2373,2277,535.8,GWP100 IPCC 2021,kg CO2-eq
+household cluster f5,,3.908530318602261,19629.199431377183,3021,2909,666.4,GWP100 IPCC 2021,kg CO2-eq
+household cluster g,,3.073446327683616,12561.323618375509,2091,1952,597.5,GWP100 IPCC 2021,kg CO2-eq

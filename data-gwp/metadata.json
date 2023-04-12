@@ -1,0 +1,19 @@
+{
+  "profile": "tabular-data-package",
+  "name": "nfp73-ccl-ipcc-2021-gwp100-results",
+  "description": "IPCC 2021 GWP100 results for NFP 73 CCL Data Transparency for Sustainbility project.             GWP100 impacts for all product categories from the household expenditure survey, followed by the monthly gwp100 impact             for the average household as well as various household clusters. Both impacts and gross income are monthly per household values.",
+  "id": "27b3c2bb2df94e0184c0cb85cc1c4b14",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "resources": [
+    {
+      "path": "nfp73-ccl-preliminary-results-ipcc-gwp-april-2023.csv"
+    }
+  ],
+  "created": "2023-04-10T16:18:21.430635Z"
+}
