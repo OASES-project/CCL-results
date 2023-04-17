@@ -5,9 +5,9 @@
   "id": "27b3c2bb2df94e0184c0cb85cc1c4b14",
   "licenses": [
     {
-      "name": "CC-BY-4.0",
-      "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
-      "title": "Creative Commons Attribution 4.0 International"
+      "name": "ODbL-1.0",
+      "path": "https://opendatacommons.org/licenses/odbl/",
+      "title": "Open Data Commons Open Database License (ODbL)"
     }
   ],
   "resources": [
