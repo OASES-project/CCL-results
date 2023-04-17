@@ -23,3 +23,7 @@ Ecological Scarcity (2021) results for the average Swiss household, 208 separate
 ## `data-cars`
 
 Global warming potential results (2021 IPCC AR6, 100-year timeframe) per passenger kilomtere for individual car models. To be used with `data-gwp` to give specific results for individual households.
+
+
+## `Acknowledgement`
+This work was funded by the [Swiss National Science Foundation (SNF)](https://snf.ch/en) as part of the synthesis stage of the [National Research Program 73 (NRP73)](https://nfp73.ch/en). 
