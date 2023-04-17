@@ -47,9 +47,9 @@
 <a id="summary"></a>
 ## Summary
 
-We have generated environmental footprints of Swiss household consumption using a hybridized ecoinvent-EXIOBASE database. We consider our results to be the best available so far, as the hybridized database, using ecoinvent 3.9.1 (cut-off system model) and EXIOBASE 3.8.1, is the most comprehensive and up-to-date for such footprint accounting.
+We have generated environmental footprints of Swiss household consumption using a hybridized ecoinvent-EXIOBASE database. We consider our results to be the best available so far, and our hybridized database, using ecoinvent 3.9.1 (cut-off system model) and EXIOBASE 3.8.1, is the most comprehensive and up-to-date for such footprint accounting.
 
-We provide results for the global warming potential (2021 IPCC AR6, 100-year timeframe) and ecological scarcity (2021) impact assessment methods. We characterize the average Swiss household, and 106 household archetypes, divided across location, income class, and household size. We also provide individual impacts for 208 separate consumption categories. For all indicators, we provide mean results together with uncertainty descriptors. These results are [openly available and included with this report](https://github.com/OASES-project/CCL-results). We also include the executable Python notebooks to reproduce our study.
+We provide results for the global warming potential (2021 IPCC AR6, 100-year timeframe) and ecological scarcity (2021) impact assessment methods. We characterize the average Swiss household, and 106 household archetypes, divided across location, income class, and household size. We also provide individual impacts for 208 separate consumption categories. For all indicators, we provide mean results together with uncertainty descriptors. These results are [openly available and included with this report](https://github.com/OASES-project/CCL-results). We also include the executable Python notebooks needed to reproduce our study.
 
 We performed some basic validation tasks on our hybridized database, and compared our results and input data with outputs from three NFP73 projects.
 
@@ -61,7 +61,7 @@ We performed some basic validation tasks on our hybridized database, and compare
 
 Currently, two separate Python packages are being used to prepare the life-cycle inventory database and the input-output database for ingestion into the main classes of [pylcaio](https://github.com/MaximeAgez/pylcaio).
 
-The [ecospold2matrix](https://github.com/majeau-bettez/ecospold2matrix) package is used to extract activities and associated exchanges from the [Ecoinvent](https://ecoinvent.org/) database spold files. The package thereafter builds the matrices required by pylcaio. To improve performance, increase modularity and utilize existing functionality available through [Brightway](https://documentation.brightway.dev/) packages (i.e. [bw2io](https://github.com/brightway-lca/brightway2-io/), [bw2calc](https://github.com/brightway-lca/brightway2-calc/), etc.), the core functionality of constructing the Leontief coefficient matrix (**A**-matrix) and the matrix holding the factors of production (“flow” matrix) from individual activity datasets is currently being integrated into different Brightway packages.
+The [ecospold2matrix](https://github.com/majeau-bettez/ecospold2matrix) package is used to extract activities and associated exchanges from the [Ecoinvent](https://ecoinvent.org/) database spold files. The package thereafter builds the matrices required by pylcaio. To improve performance, increase modularity and utilize existing functionality available through [Brightway](https://documentation.brightway.dev/) packages (i.e. [bw2io](https://github.com/brightway-lca/brightway2-io/), [bw2calc](https://github.com/brightway-lca/brightway2-calc/), etc.), the core functionality of constructing the Leontief coefficient matrix (**A**-matrix) and the matrix holding the factors of production (“flow” matrix) from individual activity datasets is currently being integrated into various Brightway packages.
 
 The [pymrio](https://github.com/konstantinstadler/pymrio) package is used to extract trade tables from the [Exiobase](https://exiobase.eu/) database csv files. The package thereafter builds the input-output matrices required by pylcaio. However, the most [recent published documentation](http://fp7desire.eu/documents/) of the Exiobase database no longer describes the content of these matrices correctly, since major updates to the structure of the database were released in 2016. To ensure consistency with current scientific conventions[^4] and to accelerate the process of building on existing tools, a compendium of all matrices relevant to the hybridization of input-output tables was created. The information associated with each matrix includes the dimensions, the row/column schema, the list and associated sources of satellite accounts and alias names used by pylcaio, pymrio and scientific literature.
 
@@ -81,7 +81,7 @@ The [most recent implementation](https://github.com/OASES-project/pylcaio/blob/m
 <a id="database-export"></a>
 ### Database Export
 
-The pylcaio package includes a function to export the hybridized database object, a class object of the pylcaio package (a dictionary of DataFrames and sparse NumPy Arrays) to Brightway. However, the required matching functions were never tested, currently throw an error related to a mismatch of impact factor names between the Exoinvent LCI and the Exiobase IO databases and thereby preclude the completion of the export function.
+The pylcaio package includes a function to export the hybridized database object, an archive produced by the pylcaio package which includes a dictionary of DataFrames and sparse NumPy Arrays to Brightway. However, the required matching functions were never tested, currently throw an error related to a mismatch of impact factor names between the Exoinvent LCI and the Exiobase IO databases and thereby preclude the completion of the export function.
 
 To overcome this challenge, we developed a new set of functions building on [Brightway datapackages](https://github.com/brightway-lca/bw_processing) and [IO table databases](https://github.com/brightway-lca/brightway2-data/blob/4.0.DEV19/bw2data/backends/iotable/backend.py#L16 ) to export EXIOBASE in a compatible and consistent way.
 
@@ -92,7 +92,7 @@ To overcome this challenge, we developed a new set of functions building on [Bri
 
 *<p style="text-align: center;">Figure 1</p>*
 
-The integrated hybrid database is shown in Figure 1. The structure of ecoinvent and EXIOBASE can be clearly seen, as well as the hybridization of EXIOBASE products being consumed by ecoinvent activities. Note the pattern of hybridization – only 6200 of the 21000 ecoinvent activities consume products from EXIOBASE, and only certain products are consumed. This pattern results from the algorithms used to prevent double-counting.
+The integrated hybrid database is shown in Figure 1. The structure of ecoinvent and EXIOBASE can be clearly seen, as well as the hybridization of EXIOBASE products being consumed by ecoinvent activities. Note the pattern of hybridization – only 6200 of the 21000 ecoinvent activities consume products from EXIOBASE, and only certain EXIOBASE products are consumed. This pattern results from the algorithms used to prevent double-counting.
 
 <a id="outlook"></a>
 ### Outlook
@@ -101,7 +101,7 @@ The integrated hybrid database is shown in Figure 1. The structure of ecoinvent 
 
 *<p style="text-align: center;">Figure 2: Proposal for hybrid life-cycle assessment as part of an iterative process to reduce uncertainty. Adapted from [Williams et al.](https://doi.org/10.1111/j.1530-9290.2009.00170.x)</p>*
 
-The use of hybrid life-cycle assessment as part of the present research project has shown the utility in improving the accuracy of life-cycle assessment studies. However, several other hybridization methods have been proposed – and few publications compare them directly[^7].  Development efforts are currently focusing on integrating them into Brightway to ensure the method most appropriate to a specific study can be applied without the need for bespoke software packages.
+The use of hybrid life-cycle assessment as part of the present research project has shown the utility in improving the accuracy of life-cycle assessment studies. However, several other hybridization methods have been proposed, and few publications provide direct comparisons[^7].  Development efforts are currently focusing on integrating these approaches into Brightway to ensure the method most appropriate to a specific study can be applied without the need for bespoke software development.
 
 The hybrid method used in the present research project can be adapted to allow the extension of process-based life-cycle inventories into the future, based on the economic and technological projections contained in the shared socio-economic scenarios of different integrated assessment models (IAMs). A similar workflow is already applied for purely process-based life-cycle assessment in the software package premise[^8], which is fully integrated with the Brightway ecosystem. However, the hybridization of inventory data is not currently part of the software package. Any development in this direction would therefore complement existing work to get closer to the vision of Gibon et al.[^9] that called for "a methodology for integrated, multiregional life-cycle assessment scenarios under large-scale technological change".
 
@@ -138,12 +138,12 @@ linking the consumption LCA model from Froemelt et al.[^1] to the updated databa
 
 The LCA model from Froemelt et al.[^1] links the consumption categories from the HABE survey to reference products from ecoinvent processes as well as EXIOBASE product groups.
 
-As some of these products or services are changing over time, for example the shares of the various heating sources used by Swiss households is different in 2017 compared to what it was in 2011, we have updated these to the years of the survey or later. Below we describe which product groups have been updated and what data was used to do so.
+As some of these products or services are changing over time, for example the shares of the various heating sources used by Swiss households is different in 2017 compared to what it was in 2011, we have updated these coefficients to the years of the survey or later. Below we describe which product groups have been updated and what data was used to do so.
 
 <a id="housing-heatingfuel-consumption-mix"></a>
 ### Housing heating/fuel consumption mix
 
-The heating demand of Swiss households is modelled as with physical process data for different heat energy carries as described in Froemelt et al[^1]. We updated the shares of the different heat energy carriers using data from the Swiss federal office for Energy (BFE) on the [energy consumption for households](https://pubdb.bfe.admin.ch/de/publication/download/11198). We used the average mix in the years 2015-2017 to update the three main heat energy carriers modelled by Froemelt et al[^1]: oil, gas, and wood. We note that the other heat energy carriers are covered by electricity consumption or only constitute a minor share of the heat consumption by households in Switzerland. The oil and wood energy carriers were further split into different types using the same shares in Froemelt et al[^1].
+The heating demand of Swiss households is modelled as with physical process data for different heat energy carriers as described in Froemelt et al[^1]. We updated the shares of the different heat energy carriers using data from the Swiss federal office for Energy (BFE) on the [energy consumption for households](https://pubdb.bfe.admin.ch/de/publication/download/11198). We used the average mix in the years 2015-2017 to update the three main heat energy carriers modelled by Froemelt et al[^1]: oil, gas, and wood. We note that the other heat energy carriers are covered by electricity consumption or only constitute a minor share of the heat consumption by households in Switzerland. The oil and wood energy carriers were further split into different types using the same shares in Froemelt et al[^1].
 
 <a id="electricity-mix"></a>
 ### Electricity mix
@@ -153,7 +153,7 @@ The electricity grid mix is automatically updated by using the newer version of 
 <a id="personal-vehicle-transport"></a>
 ### Personal vehicle transport
 
- Froemelt et al.[^1] model the passenger vehicle transport through the consumption of gasoline and diesel from the HABE expenditure data. In doing so a passenger vehicle fleet composition was used to model a mix of different types of vehicles with a different environmental performance. We updated the passenger vehicle fleet composition using data from Sacchi & Bauer[^3] to the vehicle fleet composition for the year 2020.
+ Froemelt et al.[^1] model the passenger vehicle transport through the consumption of gasoline and diesel from the HABE expenditure data. In doing so, a passenger vehicle fleet composition was used to model a mix of different vehicles with their specific environmental performances. We updated the passenger vehicle fleet composition using data from Sacchi & Bauer[^3] to the 202 vehicle fleet composition.
 
 [^3]: Sacchi, R., Bauer, C. (2022) Life cycle inventories for on-road vehicles. Paul Scherrer Institut, Villigen, Switzerland
 
@@ -172,7 +172,7 @@ To use the HABE survey results data, a few preprocessing and data cleaning steps
 
 The expenditure of 12 product categories modeled in physical units were not available as physical quantities in the HABE data for 2009-2011. As such Froemelt et al.[^1] converted the expenditures for these categories [^a] to kilograms consumed using data on prices and weights from Swiss retailers. In the HABE data for 2015-2017 however, these product categories are available as physical quantities, allowing us to forego this conversion step and use the ‘raw’ expenditure data instead.
 
-There are 5 product categories in the HABE survey that are provided as monetary expenditures only, but that are nonetheless modeled with physical process data from ecoinvent. For these product categories the expenditures must be converted to physical demand. Here we describe the conversion steps and data cleaning needed to include convert the following categories from expenditure data to physical demands.
+There are 5 product categories in the HABE survey that are provided as monetary expenditures only, but that are nonetheless modeled with physical process data from ecoinvent. For these product categories the expenditures must be converted to physical demand. Here we describe the conversion and data cleaning steps needed to include convert the following categories from expenditure data to physical demands.
 
 [^a]: ‘Bakery products’, ‘Sandwich, Fresh eggs, processed eggs’, ‘Culinary herbs’, ‘Confectionery’, ‘Other sugar or cocoa based foods’, ‘Sauces, seasonings and spices’, ‘Soups and bouillons’, ‘Ready-to-cook meals’, ‘Vegetarian soy products’, ‘Newspapers and periodicals’, and ‘Body wash and bath additive’.
 
@@ -197,7 +197,7 @@ To covert the expenditure on ‘refuse collection’, ‘waste-water collection�
 <a id="anthropogenic-carbon-dioxide-and-methane-fluxes"></a>
 ### Anthropogenic carbon dioxide and methane fluxes
 
-In theory, the fluxes of anthropogenic carbon dioxide and methane calculated by background databases should be similar to the values measured by earth systems scientists. To check on these values, we summed the total fossil carbon dioxide and methane (i.e. the flows labelled `Carbon dioxide, fossil` and `Methane, fossil`) multiplied by the indicated product volume amounts of all activities in ecoinvent 3.9.1 (cut-off system model), and compared these values with the [2022 Global Carbon Budget](https://essd.copernicus.org/articles/14/4811/2022/essd-14-4811-2022.html) and [2017 Global Methane Budget](https://essd.copernicus.org/articles/12/1561/2020/essd-12-1561-2020.html) figures. ecoinvent data is claimed to be representative of the year of publication (i.e. 2022); no more updated methane figures were available.
+In theory, the fluxes of anthropogenic carbon dioxide and methane calculated by background databases should be similar to the values measured by earth systems scientists. To check on these values, we summed the total fossil carbon dioxide and methane (i.e. the flows labelled `Carbon dioxide, fossil` and `Methane, fossil`) multiplied by the indicated product volume amounts of all activities in ecoinvent 3.9.1 (cut-off system model), and compared these values with the [2022 Global Carbon Budget](https://essd.copernicus.org/articles/14/4811/2022/essd-14-4811-2022.html) and [2017 Global Methane Budget](https://essd.copernicus.org/articles/12/1561/2020/essd-12-1561-2020.html) figures. ecoinvent data is claimed to be representative of the year of publication (i.e. 2022); high-quality comprehensive methane figures past 2017 were not available.
 
 The initial comparison revealed unrealistic values for carbon dioxide fluxes from natural gas and coal heating in ecoinvent. Similar results have [been observed for earlier ecoinvent versions](https://chris.mutel.org/images/22_Mutel_Climate_LCA_DF_78.pdf). Therefore, the following activities were ignored in the final carbon dioxide calculations:
 
@@ -219,9 +219,9 @@ No data cleaning was needed for the methane calculations.
 | CO2 | 37.1 | 37.7 | 10^12 kg CO2 |
 | CH4 | 345-383 | 199 | 10^9 kg CH4 |
 
-The CO2 fluxes (minus the heating activities removed) are very similar, which is a good sign, as carbon is one of the easiest material flows to estimate. However, we note that the global carbon budget includes some estimates from GTAP, meaning that these two numbers are not independent; they are using some of the same input data to reach their final totals. Therefore, the close agreement between these two numbers is probably mostly due to them using the same normalization references.
+The CO2 fluxes (minus the heating activities removed) are very similar, which is a good sign, as carbon is one of the easiest material flows to estimate. However, we note that the global carbon budget includes some estimates from GTAP, meaning that the ecoinvent and Global Carbon Budget figures are not independent; they are using some of the same input data to reach their final totals. Therefore, the close agreement between these two numbers is probably mostly due to them using the same normalization references.
 
-The CH4 flux numbers in ecoinvent have reasonable with observed data, given the rapid scientific progress in estimating anthropogenic emissions and in the significant geographical heterogeneity in these fluxes.
+The CH4 flux numbers in ecoinvent have reasonable agreement with observed data, given the rapid scientific progress in estimating anthropogenic emissions and in the significant geographical heterogeneity in these fluxes.
 
 <a id="mining-production-volumes"></a>
 ### Mining production volumes
@@ -232,14 +232,14 @@ The CH4 flux numbers in ecoinvent have reasonable with observed data, given the 
 | Aluminium | 69.0 | 136,000 | 2020 | [U.S. Geological Survey Jan 2021](https://pubs.usgs.gov/periodicals/mcs2021/mcs2021-bauxite-alumina.pdf), last accessed April 6, 2023 |
 | Iron | 665,633 | 1,630,000 | 2021 | [U.S. Geological Survey Jan 2022](https://pubs.usgs.gov/periodicals/mcs2022/mcs2022-iron-ore.pdf), last accessed April 6, 2023 |
 
-We performed a validation check on the production volumes covered by the ecoinvent database version 3.9.1 for copper, aluminium (bauxite measured as alumina), and iron ores. While the total fluxes of CO2 and CH4 were reasonable, the mining production volumes differ significantly from the reference data.
+We performed a validation check on the production volumes covered by the ecoinvent database version 3.9.1 for copper, aluminium (bauxite measured as alumina), and iron ores. While the total fluxes of CO2 and CH4 were reasonable, the mining production volumes differ significantly from the reference data. We do not draw any specific conclusions from these disagreements, as production volumes in ecoinvent are currently only used to determine the relative share of different producers in regional commodity markets, and therefore are indicative of overall data quality but do not directly effect LCIA scores.
 
 <a id="other-mass-balance-efforts-with-ecoinvent"></a>
 ### Other mass balance efforts with ecoinvent
 
 We have been in contact with three other teams looking at improving mass balances in ecoinvent:
 
-* The ecoinvent technical team themselves, who are looking at mass balances in activity properties
+* The ecoinvent technical team themselves, who are looking at mass balances in the quantitative properties for each technosphere and elementary flow.
 * Maxime Agez and Han de Wachter from [Ciraig](https://ciraig.org/) in Montreal, who are using optimization to balance elementary flows across ecoinvent
 * Antoine Beylot and Stephanie Müller from [BRGM](https://www.brgm.fr/fr) who are looking at mass balances in metal co-production value chains.
 
@@ -268,7 +268,7 @@ We compared the means and standard deviations for five products and four impact 
 
 After several iterative data quality improvement rounds, we find the results from the hybrid database and the farm-specific data modelled with Agroscope tools to be quite similar. Differences in statistical properties come from the different types of uncertainty presented: variability across farms in the case of agroscope versus estimated uncertainties throughout the industrial supply chain in the case of ecoinvent.
 
-The mean negative human toxicity of beets comes from the beets removing heavy metals from the soil; toxicity from ingestion of heavy metals is not considered in traditional LCIA.
+The mean negative human toxicity of beets comes from the beets removing heavy metals from the soil; toxicity from ingestion of food products containing heavy metals is not considered in traditional LCIA.
 
 The differences in milk production come from the inventory data source; ecoinvent does not have Swiss milk production datasets, but uses a mix of South Africa and Québec as a proxy for Switzerland.
 
@@ -283,34 +283,32 @@ Our consumption vector uses the fleet average car. We additionally provide outpu
 Here we present a few key results from the analysis of the Swiss household consumption footprint. We note that the full results are provided in the datapackages that can be used for (online) calculation tool. The results presented here highlight a few possibilities of 
 the updated consumption model and the available data. 
 
-The full set of results is provided as a datapackage of which the structure is described in section XXX.
+The full set of results is provided as a datapackage of which the structure is described in the repository readme.
 
 The results of the household consumption impacts are provided for the average Swiss household as well as differentiated across the following demographic categories and combinations thereof. 
 
 **Table 2: Demographic categories used for differentiation of the household consumption footprints**
 
-| Grossregion |	Einkommensklasse |	Haushaltstyp |
+| Region |	Monthly Income (CHF) |	Household Type |
 | --- | --- | --- |
-| 1. Genferseeregion | 1. Fünftel (<4914) | 1. Einpersonenhaushalte unter 65 |
-| 2. Espace Mittelland | 2. Fünftel (4914–7264) | 2. Einpersonenhaushalte ab 65 |
-| 3. Nordwestschweiz | 3. Fünftel (7265–9990) | 3. Paarhaushalte (beide unter 65) ohne weitere Haushaltsmitglieder |
-| 4. Zürich | 4. Fünftel (9991–13621) | 4. Paarhaushalte (mindestens eine Person ab 65) ohne weitere Haushaltsmitglieder |
-| 5. Ostschweiz | 5. Fünftel (≥13622) | 5. Einelternhaushalte mit Kindern (mindestens eines unter 25) ohne weitere Haushaltsmitglieder |
-| 6. Zentralschweiz | | 6. Paarhaushalte mit Kindern (mindestens eines unter 25) ohne weitere Haushaltsmitglieder |
-| 7. Tessin	 | |
+| Lac Léman region | 1st Quintile (<4914) | Single under 65 |
+| Mittelland | 2nd Quintile (4914–7264) | Single over 65 |
+| Northwest Switzerland | 3rd Quintile (7265–9990) | Pair both under 65 without other household members |
+| Zürich | 4th Quintile (9991–13621) | Pair with at least one person over 65 without other household members |
+| Eastern Switzerland | 5th Quintile (≥13622) | Single parent with children (at least one under 25) without other household members |
+| Central Switzerland | | Parents with children (at least one under 25) without other household members |
+| Ticino	 | | Other |
 
 As to comply with the privacy rules of the Federal Statistics Office, the household clusters have a minimum size of 150 households. Combinations of the above demographic categories that had a sample size smaller than 150 households were aggregated, meaning that not all combinations are provided in the results datapackage.
 
 <a id="contribution-analysis-gwp100-and-ubp"></a>
 ## Contribution analysis GWP100 and UBP
 
-Figure 4 shows the annual per person climate impact, as the global warming potential, of household consumption for the average Swiss household, as well as the 6 household types distinguished by the Federal Statistics Office, differentiated according to consumption category. The narrow yellow bars provide the per person annual gross income for the household. The number in brackets at the end of each household type name gives the average number of people (including children) for each household. These results were calculated using deterministic approach, i.e., uncertainties were not considered here, neither the sampling variance of households, not the uncertainties in the background database.
-
 <img src="figures/figure1.png">
 
 *<p style="text-align: center;">Figure 4</p>*
 
-Figure 5 shows the total environmental impact of household consumption as the ecological scarcity indicator, which includes various impacts such as global warming potential, land use, and ecotoxicity in a single score (ecopoints, or Umweltbelastungspunkte UBP). The breakdown of the total impact for the average household by impact compartment is presented in figure 6, which shows that land use and climate change dominate the environmental impacts of Swiss household consumption.
+Figure 4 shows the annual climate impact *per person* of household consumption for the average Swiss household, as well as the 7 household types distinguished by the Federal Statistics Office, differentiated according to consumption category. The narrow grey bars provide the *per person* annual gross income for the household. The number in brackets at the end of each household type name gives the average number of people (including children) for each household. These results were calculated using a deterministic approach, i.e. neither the sampling variance of households nor the uncertainties in the background database were considered.
 
 <img src="figures/figure2.png">
 
@@ -320,14 +318,16 @@ Figure 5 shows the total environmental impact of household consumption as the ec
 
 *<p style="text-align: center;">Figure 6</p>*
 
+Figure 5 shows the total environmental impact of household consumption using the [Ecological Scarcity indicator](https://www.bafu.admin.ch/bafu/en/home/topics/economy-consumption/economy-and-consumption-publications/publications-economy-and-consumption/eco-factors-switzerland.html, which includes impacts such as global warming potential, land use, and ecotoxicity in a single score (ecopoints, or Umweltbelastungspunkte UBP). The breakdown of the total impact for the average household by impact compartment is presented in Figure 6, which shows that land use and climate change dominate the environmental impacts of Swiss household consumption.
+
 <a id="uncertainty-analysis-of-household-types"></a>
 ## Uncertainty analysis of household types
-
-The updates to the household consumption model by the CCL project also included the option to do a full stochastic analysis, to take the sampling variance of household consumption into account and provide impact distributions rather than static values. Figure 7 provides such distributions for the global warming potential impact of the 6 household categories as well as the average Swiss household. The yellow line and orange dashed line provide the mean and median of the distributions respectively. The histograms in figure 7 show the 1-99 percentile range of all samples.
 
 <img src="figures/figure4.png">
 
 *<p style="text-align: center;">Figure 7</p>*
+
+The updates to the household consumption model by the CCL project also included the option to do a full stochastic analysis, to take the sampling variance of household consumption (HABE) into account and provide impact distributions rather than static values. Figure 7 provides such *per person* distributions for the global warming potential impact of the 6 household categories as well as the average Swiss household. The yellow line and orange dashed line provide the mean and median of the distributions respectively. The histograms in figure 7 show the 1-99 percentile range of all samples.
 
 Such an analysis shows that the variance between households is very high indeed. We note that these distributions also include the database uncertainty but that the variance of the distributions is dominated by the household sampling variance, i.e. the differences in consumption patterns between the households. 
 
