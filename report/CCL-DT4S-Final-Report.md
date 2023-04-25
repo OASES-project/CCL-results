@@ -128,7 +128,7 @@ In 2018 Froemelt et al.[^1] published a footprint study of Swiss household consu
 <a id="technical-updates-to-the-python-code-parsing-the-model"></a>
 ### Technical updates to the python code parsing the model
 
-Various technical updates were required to the python code, developed by Kim et al. (2022)[^2],
+Various technical updates were required to the [python code](https://github.com/aleksandra-kim/consumption_model_ch), developed by Kim et al. (2022)[^2],
 linking the consumption LCA model from Froemelt et al.[^1] to the updated databases of ecoinvent and EXIOBASE. These technical changes also include adding the option to add uncertainty to the final demand, based on the variance in demand between the households.
 
 [^2]: Kim, A., Mutel, C., Froemelt, A., Hellweg, S. (2022). [Global Sensitivity Analysis of Background Life Cycle Inventories](https://pubs.acs.org/doi/10.1021/acs.est.1c07438). Environ. Sci. Technol. 56, 5874-5885.
