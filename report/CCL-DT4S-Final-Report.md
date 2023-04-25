@@ -1,6 +1,6 @@
 # NFP-73 Co-Creation Lab “Data Transparency for Sustainability” Final Deliverables Report
 
-<p style="text-align: center;">Chris Mutel, Arthur Jakobs, Christian Bauer, Michael Weinold, Peter Burgherr, Russell McKenna</p>
+<p style="text-align: center;">Chris Mutel, Arthur Jakobs, Aleksandra Kim, Christian Bauer, Michael Weinold, Peter Burgherr, Russell McKenna</p>
 
 <p style="text-align: center;">PSI Technology Assessment Group</p>
 
